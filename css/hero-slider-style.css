@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #d44457;
+  color: rgba(99, 68, 212, 0.9);
   text-decoration: none;
 }
 
@@ -311,7 +311,7 @@ Single slide style
   display: inline-block;
   padding: 1.2em 1.4em;
   margin-top: .8em;
-  background-color: rgba(212, 68, 87, 0.9);
+  background-color: rgba(99, 68, 212, 0.9);
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -329,7 +329,7 @@ Single slide style
   margin-left: 1em;
 }
 .no-touch .cd-hero-slider .cd-btn:hover {
-  background-color: #d44457;
+  background-color: rgba(99, 68, 212, 0.9);
 }
 .no-touch .cd-hero-slider .cd-btn.secondary:hover {
   background-color: #161a1e;

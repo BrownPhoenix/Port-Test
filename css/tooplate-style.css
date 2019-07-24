@@ -168,14 +168,16 @@ button:focus { outline: none; }
 
 .cd-hero-slider p { color: white; }
 .cd-hero-slider .tm-bg-white p,
-.cd-hero-slider .tm-bg-white h2 { color: black; }
+.cd-hero-slider .tm-bg-white h2 { color: rgb(255, 255, 255); }
 
 .cd-hero-slider .tm-text { 
+
 	font-size: 1em;
 	line-height: 1.8; 
 }
 
-.tm-home-container {
+.tm-home-
+ {
 	margin: 0 auto;
 	max-width: 800px;
 	width: 95%;
@@ -187,15 +189,23 @@ button:focus { outline: none; }
 }
 
 .tm-home-title-container {
-	background-color: #856729;
-	border: 1px solid white;
+	background-color: #04012c;
+	border: 1px solid rgb(240, 239, 243);
 	margin-bottom: 0;
 	padding: 30px;
-}
 
+}
+.tm-bg-new { 
+	background-color: rgb(255, 255, 255); 
+	color: rgb(19, 19, 19);
+}
+.tm-bg-newu { 
+	background-color: rgb(14, 24, 71); 
+	color: rgb(19, 19, 19);
+}
 .tm-bg-dark-blue { background-color: #1A2D4B; }
 .tm-bg-white { 
-	background-color: white; 
+	background-color: rgb(237, 239, 241); 
 	color: black;
 }
 .tm-bg-brown { background-color: #856729; }
@@ -254,7 +264,7 @@ button:focus { outline: none; }
 }
 
 .tm-bg-white-half {
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	width: 50%;
 	height: 126px;
 	position: absolute;
